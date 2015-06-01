@@ -5,7 +5,7 @@
 
 app.factory('apiCall',['$http', function($http) {
 
-  var apiAuth = '?client_id=5b1a2584bb60167eb335&client_secret=6ee410670afeb91de1f1d89548f1c528f33e9997';
+  var apiAuth = '?client_id=c30a3fb3fbf8a39ce45e&client_secret=f7e317d6f00be22e0df45f2bd42b7424648b7245';
   return {
     fetchUser: function(username) {
       return  $http.get('https://api.github.com/users/' + username + apiAuth);
